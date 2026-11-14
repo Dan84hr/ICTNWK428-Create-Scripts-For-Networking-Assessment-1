@@ -1,3 +1,11 @@
+# Modifications 1: Version control 
+# Modifications 2: File path variables, possibly this is passed in from another script
+# Create a file path variable (Example - $FilePath = $env:TEMP)
+# Modifications 3: Store the menu and related function in variables 
+# 	The menu can be edited and added to without large modifications to code
+# Modifications 4: Can the exit command be the 'Esc" Key?
+
+
 # <# ------------------------------------------------------------
 # ITWorks - Operating System Information Pseudocode
 # File: Pseudocode-OSInfo_documentation_Daniel_Mchendrie.md(docx)
@@ -12,11 +20,10 @@
 # Modifications: File path variables, possibly this is passed in from another script
 # Create a file path variable (Example - $FilePath = $env:TEMP)
 
-### where to store Functions? (modules are a good practice)
+# where to store Functions? (modules are a good practice)
 
-### Functions that are not required ###
-   ## DEFINE function to retrieve all information #
-   ## DEFINE function to retrieve and display all information ##
+# Functions that are not required 
+   # DEFINE function to retrieve and display all information ##
 
 START
 

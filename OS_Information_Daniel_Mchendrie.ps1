@@ -1,11 +1,11 @@
 <# ------------------------------------------------------------
-# ITWorks - Operating System Information Script
-# File: OS_Information_Daniel_Mchendrie.ps1
-# Purpose: Collect and display computer and OS information.
-# Author: Daniel McHendrie
-# Date; 13/11/2026
+ ITWorks - Operating System Information Script
+ File: OS_Information_Daniel_Mchendrie.ps1
+ Purpose: Collect and display computer and OS information.
+ Author: Daniel McHendrie
+ Date: 13/11/2026
 
-# Version 1.3
+ Version 1.4
 -----------------------
 ### Helpfull commands ###
 Run with 'CAll' > & "C:\Powershell\PS_Scripts\OS_Information_Daniel_Mchendrie.ps1"
@@ -40,15 +40,15 @@ This will continue/Loop until option 9 is selected (exit)
 # Menu contence Format - Option 1 - Operating System Information
 $MainMenu = @"
 ------------- ITWorks OS Information Tool -------------`n
-1 - Current Operating System Information
-2 - Windows remote service status
-3 - Computer manufacturer and Model
-4 - Computer Name
-5 - Computer domain name
-6 - Computer's trusted hosts
-7 - Operating system architecture
-8 - Get All Computer Information
-9 - Quit
+ 1 - Current Operating System Information
+ 2 - Windows remote service status
+ 3 - Computer manufacturer and Model
+ 4 - Computer Name
+ 5 - Computer domain name
+ 6 - Computer's trusted hosts
+ 7 - Operating system architecture
+ 8 - Get All Computer Information
+ 9 - Quit
 `n-------------------------------------------------------
 "@ 
 

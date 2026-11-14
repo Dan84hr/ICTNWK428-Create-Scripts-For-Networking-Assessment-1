@@ -1,15 +1,15 @@
 
 <# ------------------------------------------------------------
-# ITWorks - Operating System Information - Function Module
-# File: itworksScriptPester.tests.ps1
-# Purpose: Tests for OS_Information_Daniel_Mchendrie Script
-# Author: Daniel McHendrie
-# Date; 13/11/2026
+ ITWorks - Operating System Information - Function Module
+ File: itworksScriptPester.tests.ps1
+ Purpose: Tests for OS_Information_Daniel_Mchendrie Script
+ Author: Daniel McHendrie
+ Date; 13/11/2026
 
-# Version 1.0
+ Version 1.1
 ------------------------------------------------------------
-# Invoke-ScriptAnalyzer -Path "C:\Powershell\PS_Scripts\itworksScriptAnalyzer.tests.ps1"
-# Invoke-ScriptAnalyzer -Path "C:\Powershell\PS_Scripts\itworksScriptAnalyzer.tests.ps1" |
+Invoke-ScriptAnalyzer -Path "C:\Powershell\PS_Scripts\itworksScriptAnalyzer.tests.ps1"
+Invoke-ScriptAnalyzer -Path "C:\Powershell\PS_Scripts\itworksScriptAnalyzer.tests.ps1" |
     Format-List Severity, RuleName, Message, Extent, SuggestedCorrections
 ------------------------------------------------------------#>
 
