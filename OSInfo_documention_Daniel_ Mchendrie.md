@@ -2,7 +2,7 @@
 # Modifications 2: File path variables, possibly this is passed in from another script
 # Create a file path variable (Example - $FilePath = $env:TEMP)
 # Modifications 3: Store the menu and related function in variables 
-# 	The menu can be edited and added to without large modifications to code
+# The menu can be edited and added to without large modifications to code
 # Modifications 4: Can the exit command be the 'Esc" Key?
 
 

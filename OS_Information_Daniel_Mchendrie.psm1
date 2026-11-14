@@ -1,11 +1,11 @@
 <# ------------------------------------------------------------
-# ITWorks - Operating System Information - Function Module
-# File: OS_Information_Daniel_Mchendrie.psm1
-# Purpose: Store the functions required for OS_Information_Daniel_Mchendrie Script
-# Author: Daniel McHendrie
-# Date; 12/11/2026
+ITWorks - Operating System Information - Function Module
+File: OS_Information_Daniel_Mchendrie.psm1
+Purpose: Store the functions required for OS_Information_Daniel_Mchendrie Script
+Author: Daniel McHendrie
+Date: 14/11/2026
 
-# Version 1.2
+Version 1.3
 -----------------------
 ### Helpfull commands ###
 Run > .\OS_Information_Daniel_Mchendrie.psm1
@@ -28,9 +28,9 @@ DEFINE FUNCTIONS
 All defined functions will use TRY and CATCH
 All functions will TRY and have Error set to - STOP 
 
-# ** The TRY step will be used in all functions ** #
-# ** This Catch function step will be the same for all defined function** #
-# NOTE: These functions will be exported and publicly acessible 
+** The TRY step will be used in all functions **
+** This Catch function step will be the same for all defined function**
+NOTE: These functions will be exported and publicly acessible 
 -------------------------------------------------------------#> 
 
 # Function: Get computer information - store in variable 'ComputerInfo'
